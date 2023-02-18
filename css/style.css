@@ -213,17 +213,34 @@ main {
     margin: 10px 0 0;
 }
 
+@media (max-width: 750px){
+    body{
+        font-size: 14px;
+    }
+    main{
+        display: inline;
+        width: 40vw;
+        height: 40vh;
+        margin: 1rem auto;
+        gap: 1rem;
+ 
+    }
+    .robo {
+        position: relative;
+        margin-left: 9rem;
+    }
+} 
 @media screen and (max-width: 1600px) {
     body { 
         font-size: 14px;
     }
     main {
-        width: 90vw;
-        height: 80vh;
+        width: 92vw;
+        height: 90vh;
         margin: 5vh auto;
     }
-}
 
+}
 @media screen and (max-width: 1200px) {
     body { 
         font-size: 13px;
