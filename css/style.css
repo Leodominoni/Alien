@@ -46,6 +46,7 @@ main {
     height: 100%;
     z-index: 1;
     position: absolute;
+    margin-left: 5rem;
     left: -8%;
     top: -5%;
 }
@@ -56,7 +57,7 @@ main {
     font-size: 100px;
     position: absolute;
     bottom: 8rem;
-    left: 1rem;
+    left: .3rem;
     line-height: 0.8;
     writing-mode: vertical-rl;
     text-orientation: mixed;
@@ -112,7 +113,7 @@ main {
     margin: 0 1rem;
     color: var(--main-branco);
     text-align: center;
-    font-size: 2.8em;
+    font-size: 2.5em;
     display: inline-flex;
     align-items: center;
     padding-top: 5px;
@@ -133,7 +134,7 @@ main {
 }
 
 .linha {
-    border-color: var(--main-cinza);
+    border-color: var(--main-blue);
 }
 
 .producao {
@@ -169,16 +170,17 @@ main {
 
 .estatistica-titulo {
     font-size: 2em;
-    border-bottom: .5px solid var(--main-cinza);
+    border-bottom:.5px solid var(--main-blue);
     flex-basis: 40%;
     text-transform: uppercase;
     order: 1;
+    padding: .2rem;
 }
 
 .estatistica-valor {
     flex-basis: 60%;
     position: relative;
-    margin: 10px 0 0;
+    margin: 20px 0 0;
     order: 2;
     margin: -10px 0 0;
 }
@@ -187,7 +189,7 @@ main {
     content: "";
     display: block;
     padding-bottom: 100%;
-    border: 1px solid var(--main-cinza);
+    border: 2px solid var(--main-blue);
     border-radius: 50%;
 }
 
